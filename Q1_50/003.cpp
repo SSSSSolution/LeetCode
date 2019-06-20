@@ -20,8 +20,8 @@ public:
             if (infos[c].exist) { //重复
                 //更新infos
                 updateInfos(infos[c].index);
-                // 更新当前最大长度
-                curmax = 1;
+                curmax = i - infos[c].index;
+                infos[c].index = i;
             } else { //没重复
                 infos[c].exist = true;
                 infos[c].index = i;
@@ -54,7 +54,8 @@ int main() {
     vector<string> strings {
         "abcabcbb",
         "bbbbb",
-        "pwwkew"
+        "pwwkew",
+        "dvdf"
     };
 
     for (unsigned int i = 0; i < strings.size(); i++ ) {
