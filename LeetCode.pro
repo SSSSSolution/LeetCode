@@ -21,4 +21,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
 #    Q1_50/001.cpp \
 #    Q1_50/002.cpp  \
-    Q1_50/003.cpp
+#    Q1_50/003.cpp   \
+#    Q1_50/004.cpp   \
+     Q1_50/005.cpp

@@ -8,3 +8,8 @@ cmake_uninstall.cmake
 CMakeLists.txt.user
 
 *.pro.user
+.qmake.stash
+core
+
+*.o
+LeetCode
