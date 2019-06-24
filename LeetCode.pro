@@ -19,9 +19,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 # Input
 SOURCES += \
-#    Q1_50/001.cpp \
+#    Q1_50/001.cpp  \
 #    Q1_50/002.cpp  \
-#    Q1_50/003.cpp   \
-#    Q1_50/004.cpp   \
-#     Q1_50/005.cpp  \
-     Q1_50/006.cpp
+#    Q1_50/003.cpp  \
+#    Q1_50/004.cpp  \
+#    Q1_50/005.cpp  \
+#	 Q1_50/006.cpp	\
+#	 Q1_50/011.cpp  \
+     Q1_50/019.cpp
