@@ -37,7 +37,8 @@ public:
     }
 };
 
-int main() {
+void test021()
+{
     ListNode *l11 = new ListNode(1);
     ListNode *l12 = new ListNode(2);
     ListNode *l13 = new ListNode(4);

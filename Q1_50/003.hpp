@@ -49,7 +49,8 @@ public:
     }
 };
 
-int main() {
+void test003()
+{
     Solution s;
     vector<string> strings {
         "abcabcbb",

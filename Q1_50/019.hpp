@@ -39,7 +39,8 @@ public:
     }
 };
 
-int main() {
+void test019()
+{
     ListNode *head = new ListNode(1);
     ListNode *p1 = new ListNode(2);
     ListNode *p2 = new ListNode(3);

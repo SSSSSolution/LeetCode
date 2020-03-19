@@ -87,7 +87,7 @@ public:
     }
 };
 
-int main()
+void test004()
 {
     Solution s;
     vector<int> v1{1,3};

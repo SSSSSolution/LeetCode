@@ -69,7 +69,7 @@ public:
     }
 };
 
-int main() {
+void test006() {
     Solution s;
     string str("PAYPALISHIRING");
     cout << s.convert(str, 3) << endl;

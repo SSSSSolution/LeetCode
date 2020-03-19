@@ -44,7 +44,7 @@ public:
     }
 };
 
-int main() {
+int test046() {
     Solution s;
     vector<vector<int>> ret;
     vector<int> nums {

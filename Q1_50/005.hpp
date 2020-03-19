@@ -96,7 +96,7 @@ public:
     }
 };
 
-int main() {
+void test005() {
     Solution s;
     cout << s.longestPalindrome(string("ccc"))<< endl;
 

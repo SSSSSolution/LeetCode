@@ -36,7 +36,7 @@ public:
     }
 };
 
-int main()
+void test020()
 {
     Solution s;
     string str("(((({{{{}}}}}))))[]]");

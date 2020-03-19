@@ -27,14 +27,15 @@ public:
     }
 };
 
-//int main() {
-//    Solution001 s;
-//    vector<int> input;
-//    input.push_back(5);
-//    input.push_back(5);
-//    input.push_back(11);
-//    input.push_back(15);
-//    int target = 16;
-//    vector<int> ret = s.twoSum(input, target);
-//    cout << ret[0] << ", " << ret[1] << endl;
-//}
+void test001()
+{
+    Solution001 s;
+    vector<int> input;
+    input.push_back(5);
+    input.push_back(5);
+    input.push_back(11);
+    input.push_back(15);
+    int target = 16;
+    vector<int> ret = s.twoSum(input, target);
+    cout << ret[0] << ", " << ret[1] << endl;
+}

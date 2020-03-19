@@ -70,7 +70,7 @@ public:
     }
 };
 
-int main()
+void  test002()
 {
     ListNode *l1 = new ListNode(2);
     ListNode *l11 = new ListNode(4);
@@ -91,6 +91,4 @@ int main()
         std::cout << p->val;
         p=p->next;
     }
-
-    return 0;
 }

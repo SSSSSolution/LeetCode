@@ -18,7 +18,8 @@ public:
     }
 };
 
-int main() {
+void test070()
+{
     Solution s;
     cout << s.climbStairs(4) << endl;
 }

@@ -56,7 +56,8 @@ public:
     }
 };
 
-int main() {
+void test022()
+{
     Solution s;
     vector<string> ret;
     ret = s.generateParenthesis(4);

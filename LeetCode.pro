@@ -17,21 +17,29 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+INCLUDEPATH += Q1_50 Q51_100
 # Input
 SOURCES += \
-#    Q1_50/001.cpp  \
-#    Q1_50/002.cpp  \
-#    Q1_50/003.cpp  \
-#    Q1_50/004.cpp  \
-#    Q1_50/005.cpp  \
-#    Q1_50/006.cpp  \
-     Q1_50/009.cpp
-#    Q1_50/011.cpp  \
-#    Q1_50/019.cpp  \
-#    Q1_50/020.cpp  \
-#    Q1_50/021.cpp  \
-#    Q1_50/022.cpp  \
-#    Q1_50/043.cpp
-#     Q1_50/046.cpp \
-#     Q51_100/070.cpp
+    mian.cpp
+
+HEADERS += \
+    Q1_50/001.hpp \
+    Q1_50/002.hpp \
+    Q1_50/003.hpp \
+    Q1_50/005.hpp \
+    Q1_50/004.hpp \
+    Q1_50/006.hpp \
+    Q1_50/007.hpp \
+    Q1_50/009.hpp \
+    Q1_50/011.hpp \
+    Q1_50/019.hpp \
+    Q1_50/020.hpp \
+    Q1_50/021.hpp \
+    Q1_50/022.hpp \
+    Q1_50/043.hpp \
+    Q1_50/046.hpp \
+    Q51_100/070.hpp \
+    header.h \
+    Q1_50/008.hpp \
+    Q1_50/010.hpp
 

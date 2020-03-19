@@ -85,7 +85,7 @@ public:
     }
 };
 
-int main() {
+void test043() {
     Solution s;
     string str("");
     string str1("4");
